@@ -1,0 +1,140 @@
+body {
+    background-color: #101010;
+    margin: 0;
+}
+h2 {
+    color: white;
+    text-shadow: 5px 5px 10px #c22323;
+}
+
+.banner {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4)), url('src/img/dokor.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-outline-secondary {
+    color: white;
+}
+
+.btn{
+    box-shadow: rgb(44, 182, 237) 0px 0px 7px;
+    transition: 1s;
+}
+
+.card{
+    background-color: rgb(167, 5, 40);
+    color: white;
+    box-shadow: 0 0 10px #c22323;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.icon-service {
+    width: 90px;
+    height: 90px;
+    border: solid #f5f3f3 2px;
+    border-radius: 50%;
+    color: #ffff;
+}
+
+
+.background-services{
+    background-color: red;
+}
+
+.testimony{
+    background-color: rgb(255, 5, 5) !important;
+}
+
+.testimony .card{
+    background: rgba(225, 225, 225, 0.07) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 16px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony .card:hover {
+    transform: translateY(-6px);
+    background: rgba(225, 225, 225, 0.13);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.testimony .card .quote-icon {
+    font-size: 2rem;
+    color:rgb(245, 242, 242);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.testimony-card h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color:rgb(226, 225, 225);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color:rgba(255, 252, 252, 0.8);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.testimony-card .stars {
+    color: #ffc107;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+.testimony .testimony-card {
+    background: rgba(225, 225, 225, 0.07) !important;
+    border: 2px solid rgba(255, 255, 255, 0.15) !important;;
+}
+
+.footer {
+    background-color: rgb(116, 102, 116);
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.8);
+    transition: .3s;
+}
+
+.footer .social-icon:hover {
+    color: #2f3ceb;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.produk-banner {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.7)), url('src/img/dokor.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h4 {
+    color: white;
+    text-shadow: 5px 5px 10px #c22323;
+}
+
+.card-produk{
+    background-color: rgb(167, 5, 40);
+    color: white;
+    box-shadow: 0 0 10px #c22323;
+}
